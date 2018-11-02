@@ -1,0 +1,22 @@
+header {
+  background: url(../images/Hero-image-kyle-glenn-686350-unsplash_reduced.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: hsla(#ffffff, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+button {
+  background-color: #3cb371;
+  height: 30px;
+}
+
+@@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
